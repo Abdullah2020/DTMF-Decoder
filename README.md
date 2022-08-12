@@ -11,3 +11,8 @@ The target of this task is to develop a DTMF decoder to decode the signals prese
 + The second highest frequency was obtained using findpeak() function. This frequency corresponds to one of the low frequency of the DTMF frequency table
 + The obtained frequencies (high and low after factoring the 1.5% frequency tolerance) was compared to the DTMF frequency table.
 + The corresponding numbers were returned.
+
+The audio file named `0123456789.wav` was used to test the model. Thus, the figure below shows the output detection of the decoded audio signal.
+
+
+![Screenshot 2022-08-13 004953](https://user-images.githubusercontent.com/16369782/184454176-0d16ce1f-9a06-427d-ada6-e1eebf42a965.png)
